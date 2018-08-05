@@ -15,7 +15,7 @@ const Home = () => {
         <div className='home-wrapper' id='main'>
             <div className='technologies-wrapper'>
                 <h2 className='title'><span className='active'>// Technologies //</span></h2>
-                <div className='technologies'>
+                <div className='technologies' id='tech'>
                     <img className='technologies-item' src={ html }></img>
                     <img className='technologies-item' src={ css }></img>
                     <img className='technologies-item' src={ sass }></img>
@@ -27,6 +27,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='contact-wrapper'>
+                <div><a className="blink to-main-section" href='#header'></a></div>
                 <h2 className='title'><span className='active'>// Contact me //</span></h2>
                 <div className='contact'>
                     <p className='contact-text'>
@@ -35,7 +36,6 @@ const Home = () => {
                     <p className='contact-text'>(+48) 792-432-345</p>
                 </div>
             </div>
-            <div><a className="blink to-main-section" href='#header'></a></div>
         </div>
     )
 }
